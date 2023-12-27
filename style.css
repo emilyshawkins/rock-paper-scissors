@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Playfair Display';
+    font-weight: 800px;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#main {
+    text-align: center;
+}
+
+#stats {
+    font-family: 'Space Mono';
+    background-color: #FFEAEA;
+    padding: 30px 250px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+#player, #computer {
+    display: inline;
+}
+
+#description {
+    font-weight: bold;
+    margin-bottom: 0;
+}
