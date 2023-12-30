@@ -2,7 +2,7 @@ h1 {
     font-family: 'Playfair Display';
     font-weight: 800px;
     font-size: 60px;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 15px;
 }
 
@@ -26,3 +26,35 @@ h1 {
     font-weight: bold;
     margin-bottom: 0;
 }
+
+img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+button {
+    position: static;
+    background-color: #ffeaea00;
+    border: 0;
+    padding: 0;
+    margin: 0px 10px;
+    transition: transform .5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    border: 5px solid #e69494;
+    border-radius: 20px;
+}
+
+#game {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.comp-card {
+    margin-right: 100px;
+}
+
