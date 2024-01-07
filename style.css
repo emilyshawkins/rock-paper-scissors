@@ -30,10 +30,11 @@ h1 {
 img {
     width: 200px;
     border-radius: 15px;
+    padding: 0;
 }
 
 button {
-    position: static;
+    height: 292px;
     background-color: #ffeaea00;
     border: 0;
     padding: 0;
@@ -42,7 +43,7 @@ button {
 }
 
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     border: 5px solid #e69494;
     border-radius: 20px;
 }
